@@ -37,5 +37,5 @@ Description:
 * Familiar with DOM, events, MVC, SPA, OOP in Javascript
 
 ## 8. English level
-Pre-intermediate (read documentation)  
+Pre-intermediate  
 Studied in the school of English "Belhard" in 2016
