@@ -22,7 +22,8 @@ Experience with Canvas/SVG animation
 in preparation
 
 ## 6. Work experience
-[Graduation project](http://goo.gl/2EJ4Sa) (Course: Developing Web Applications in JavaScript)
+Course: Developing Web Applications in JavaScript  
+[Graduation project](http://goo.gl/2EJ4Sa) 
 
 ## 7. Education
 #### Higher Educational Establishment
