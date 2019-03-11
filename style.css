@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('assets/fonts/lato-regular.woff2') format('woff2'),
+        url('assets/fonts/lato-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-bold';
+    src: url('assets/fonts/lato-bold.woff2') format('woff2'),
+        url('assets/fonts/lato-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	color: black;
+}
+
+.container {
+
+	max-width: 1024px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+.flex-container {
+	display: flex;
+	 flex-direction: row;
+	 margin-top: 30px;
+}
+
+h1 {
+	display: block;
+ color: #1b4491;
+padding: 40px 0 0 10px;
+margin: 0;
+
+}
+
+ a {
+	text-decoration: none;
+	color: #350fac;
+
+}
+
+.flex-item-left {
+align-items: flex-center;
+	margin-left: 100px;
+	width: 25%;
+}
+.flex-item-right {
+	align-items: flex-center;
+	width: 75%;
+	margin-right: 80px;
+}
+
+.flex-item-left h3 {
+	margin-top: 0;
+	text-transform: uppercase;
+	color: #1b4491;
+}
+
+.flex-item-right p {
+	margin-top: 0;
+}
+
+img.portrait {
+
+
+	
+	margin-top: 52px;
+}
+
+
+
+.contacts h2 {
+
+	margin-left: 9px;
+	margin-top: 11px;
+}
+
+
+
+.contacts ul li {
+list-style-type: none;
+position: relative;
+}
+
+
+
+.contacts ul li::before {
+width: 16px;
+    height: 16px;
+   
+    left: -30px;
+
+    content: "";
+    position: absolute;
+    top: 30%;
+}
+
+
+.contacts ul li.phone::before {
+    background: url(assets/images/phone.png) no-repeat;
+    margin-top: -5px;
+}
+
+.contacts ul li.mail::before {
+   margin-top: -5px;
+    background: url(assets/images/email.png) no-repeat;
+}
+
+.contacts ul li.skype::before {
+    background: url(assets/images/skype.png) no-repeat;
+    margin-top: -3px;
+}
+
+.contacts ul li.linkedin::before {
+    background: url(assets/images/linkedin.png) no-repeat;
+    margin-top: -3px;
+}
+
+
+footer {
+	background: #1b4491;
+	padding: 20px;
+	margin-top: 30px;
+	color: #fff;
+}
+
+footer .container {
+	background: #1b4491;
+	text-align: center;
+}
