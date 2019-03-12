@@ -125,6 +125,15 @@ width: 16px;
     margin-top: -3px;
 }
 
+.flex-item-right ul.description-list li {
+	list-style-type: circle;
+}
+
+.flex-item-right ul.description-list  {
+	margin-top: -15px;
+	margin-left: -12px;
+}
+
 
 footer {
 	background: #1b4491;
